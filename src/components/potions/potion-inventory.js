@@ -1,4 +1,17 @@
-const categories = [
+import cr from '../../images/potion.images/cliffracer.webp';
+import pee from '../../images/potion.images/primeescape.webp';
+import health from '../../images/potion.images/health.webp';
+import es from '../../images/potion.images/elixerstrength.webp';
+import pvh from '../../images/potion.images/potionvigoroushealing.webp';
+import pops from '../../images/potion.images/pops.webp';
+import philtershock from '../../images/potion.images/philtershock.webp';
+import erm from '../../images/potion.images/erm.webp';
+import resistfire from '../../images/potion.images/resistfire.webp';
+import pv from '../../images/potion.images/vigorpotion.webp'
+
+
+
+export const potionInventory = [
     {
         id:1,
         potion: 'Potion of Cure Disease',

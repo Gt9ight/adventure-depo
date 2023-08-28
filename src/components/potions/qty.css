@@ -1,0 +1,45 @@
+.NumContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 250px;
+  }
+  .NumContainer span{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .NumContainer span.num{
+    font-size: 20px;
+    border-right: 2px solid  rgb(44, 63, 39);
+    border-left: 2px solid  rgb(44, 63, 39);
+    pointer-events: none;
+  }
+
+  .NumContainer span.plus, .minus{
+    cursor: pointer;
+  }
+
+  .checkout {
+    color: aliceblue;
+    background-color: rgb(204, 0, 0);
+    border-radius: 5px;
+    border: none;
+    padding: 0px 12px;
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    
+  }
+  .checkout:hover{
+    background-color: rgb(167, 32, 8);
+    cursor: pointer;
+  }
+
+  img{
+    width: 150px;
+    height: 150px;
+  }
